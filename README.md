@@ -4,7 +4,7 @@ API REST desenvolvida em **Python e FastAPI** que consulta dados meteorológicos
 
 O projeto também utiliza **Redis para cache** das consultas e **Rate Limiting** para controlar o número de requisições.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 * Python
 * FastAPI
@@ -14,17 +14,10 @@ O projeto também utiliza **Redis para cache** das consultas e **Rate Limiting**
 * Visual Crossing Weather API
 * Git/GitHub
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 * Consulta do clima por cidade
 * Temperatura atual, sensação térmica, máxima e mínima
-* Condições meteorológicas
-* Cache de consultas com Redis
-* Rate limiting
-* Validação de parâmetros
-* Tratamento de cidades inválidas
-* Variáveis de ambiente para informações sensíveis
-
 
 ## Executando o projeto
 
