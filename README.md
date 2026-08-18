@@ -1,4 +1,4 @@
-# 🌤️ Weather API
+Weather API
 
 API REST desenvolvida em **Python e FastAPI** que consulta dados meteorológicos da **Visual Crossing Weather API** e retorna as informações em formato JSON.
 
@@ -8,46 +8,13 @@ O projeto também utiliza **Redis para cache** das consultas e **Rate Limiting**
 
 * Python
 * FastAPI
-* Pydantic
 * Redis
-* Requests
-* Visual Crossing Weather API
-* Git/GitHub
 
 ## Funcionalidades
 
 * Consulta do clima por cidade
 * Temperatura atual, sensação térmica, máxima e mínima
 
-## Executando o projeto
-
-Clone o repositório e instale as dependências:
-
-```bash
-git clone https://github.com/juliasouza-s/weather-api.git
-cd weather-api
-pip install -r requirements.txt
-```
-
-Configure as variáveis de ambiente no arquivo `.env`:
-
-```env
-WEATHER_API_KEY=sua_chave_aqui
-REDIS_HOST=localhost
-REDIS_PORT=6379
-```
-
-Inicie o Redis e execute a aplicação:
-
-```bash
-uvicorn app.main:app --reload
-```
-
-A API estará disponível em:
-
-```text
-http://127.0.0.1:8000
-```
 
 A documentação interativa pode ser acessada em:
 
