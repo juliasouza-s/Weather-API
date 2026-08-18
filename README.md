@@ -1,4 +1,4 @@
-Weather API
+## Weather API
 
 API REST desenvolvida em **Python e FastAPI** que consulta dados meteorológicos da **Visual Crossing Weather API** e retorna as informações em formato JSON.
 
