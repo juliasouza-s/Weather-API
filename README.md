@@ -15,13 +15,6 @@ O projeto também utiliza **Redis para cache** das consultas e **Rate Limiting**
 * Consulta do clima por cidade
 * Temperatura atual, sensação térmica, máxima e mínima
 
-
-A documentação interativa pode ser acessada em:
-
-```text
-http://127.0.0.1:8000/docs
-```
-
 ## Exemplo
 
 ```http
